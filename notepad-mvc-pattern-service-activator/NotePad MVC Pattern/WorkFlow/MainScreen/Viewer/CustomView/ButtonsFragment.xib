@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ButtonsFragmentView" customModule="NotePad_MVC_Pattern" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonsView" destination="Oif-pY-aFO" id="rkm-SV-7mI"/>
+                <outlet property="openFolder" destination="QP8-Xk-7nF" id="yim-vV-Dph"/>
+                <outlet property="saveButton" destination="Cm4-q7-EwM" id="Ysq-Dg-Vd2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Oif-pY-aFO">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="96"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QP8-Xk-7nF">
+                    <rect key="frame" x="344.5" y="26.5" width="49.5" height="49.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="QP8-Xk-7nF" secondAttribute="height" multiplier="1:1" id="b4v-R8-t9q"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="folder.fill" catalog="system" title="" cornerStyle="fixed">
+                        <backgroundConfiguration key="background" cornerRadius="40">
+                            <color key="backgroundColor" red="0.5450980392" green="0.60392156860000001" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="strokeColor" red="0.5450980392" green="0.60392156860000001" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        </backgroundConfiguration>
+                        <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="26" scale="small"/>
+                        <attributedString key="attributedSubtitle"/>
+                    </buttonConfiguration>
+                </button>
+                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cm4-q7-EwM">
+                    <rect key="frame" x="270.5" y="26.5" width="50" height="49.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Cm4-q7-EwM" secondAttribute="height" multiplier="1:1" id="dkp-oH-koe"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="square.and.arrow.down.fill" catalog="system" title="" cornerStyle="fixed">
+                        <backgroundConfiguration key="background" cornerRadius="40">
+                            <color key="backgroundColor" red="0.5450980392" green="0.60392156860000001" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="strokeColor" red="0.5450980392" green="0.60392156860000001" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        </backgroundConfiguration>
+                        <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
+                        <attributedString key="attributedSubtitle"/>
+                    </buttonConfiguration>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="BXE-p7-Uwb"/>
+            <constraints>
+                <constraint firstItem="Cm4-q7-EwM" firstAttribute="centerY" secondItem="QP8-Xk-7nF" secondAttribute="centerY" id="5rR-uN-HIg"/>
+                <constraint firstItem="Cm4-q7-EwM" firstAttribute="width" secondItem="Oif-pY-aFO" secondAttribute="width" multiplier="0.12" id="BRA-et-sjM"/>
+                <constraint firstItem="QP8-Xk-7nF" firstAttribute="leading" secondItem="Cm4-q7-EwM" secondAttribute="trailing" constant="24" id="WUc-9m-3ki"/>
+                <constraint firstItem="QP8-Xk-7nF" firstAttribute="width" secondItem="Oif-pY-aFO" secondAttribute="width" multiplier="0.12" id="YN2-DO-1UU"/>
+                <constraint firstItem="BXE-p7-Uwb" firstAttribute="bottom" secondItem="QP8-Xk-7nF" secondAttribute="bottom" constant="20" id="bSb-98-dDw"/>
+                <constraint firstItem="BXE-p7-Uwb" firstAttribute="trailing" secondItem="QP8-Xk-7nF" secondAttribute="trailing" constant="20" id="h1B-aB-Nr7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-324.63768115942031" y="186.16071428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="folder.fill" catalog="system" width="128" height="97"/>
+        <image name="square.and.arrow.down.fill" catalog="system" width="121" height="128"/>
+    </resources>
+</document>

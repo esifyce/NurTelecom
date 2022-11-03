@@ -1,0 +1,63 @@
+
+/* Class = "UIButton"; configuration.title = "File"; ObjectID = "4au-Ij-dP1"; */
+"4au-Ij-dP1.configuration.title" = "File";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4au-Ij-dP1"; */
+"4au-Ij-dP1.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "5ZQ-op-hqh"; */
+"5ZQ-op-hqh.title" = "Done";
+
+/* Class = "UINavigationItem"; title = "Colors"; ObjectID = "8fc-eF-mFF"; */
+"8fc-eF-mFF.title" = "Colors";
+
+/* Class = "UINavigationItem"; title = "Font"; ObjectID = "990-F6-Mvh"; */
+"990-F6-Mvh.title" = "Font";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "9Tc-Qj-cVI"; */
+"9Tc-Qj-cVI.text" = "0.00";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "Gcj-Lt-Afz"; */
+"Gcj-Lt-Afz.title" = "Done";
+
+/* Class = "UILabel"; text = "Red:"; ObjectID = "VRP-dF-lBg"; */
+"VRP-dF-lBg.text" = "Red:";
+
+/* Class = "UILabel"; text = "Green:"; ObjectID = "WhH-Hq-6Fo"; */
+"WhH-Hq-6Fo.text" = "Green:";
+
+/* Class = "UITextField"; text = "0.00"; ObjectID = "XOb-f3-OJy"; */
+"XOb-f3-OJy.text" = "0.00";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "Yew-0H-xzb"; */
+"Yew-0H-xzb.text" = "0.00";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "bcG-pk-LeA"; */
+"bcG-pk-LeA.text" = "A";
+
+/* Class = "UILabel"; text = "Blue:"; ObjectID = "c36-3X-9IL"; */
+"c36-3X-9IL.text" = "Blue:";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "fFH-Md-9EI"; */
+"fFH-Md-9EI.text" = "A";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "g7c-Nf-gyJ"; */
+"g7c-Nf-gyJ.title" = "Settings";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "hWN-ea-oW1"; */
+"hWN-ea-oW1.title" = "Done";
+
+/* Class = "UITextField"; text = "0.00"; ObjectID = "m1w-2n-cYV"; */
+"m1w-2n-cYV.text" = "0.00";
+
+/* Class = "UILabel"; text = "This is what the text will look loke"; ObjectID = "nwu-G4-4MI"; */
+"nwu-G4-4MI.text" = "This is what the text will look loke";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qwu-fs-nHA"; */
+"qwu-fs-nHA.normalTitle" = "Button";
+
+/* Class = "UITextField"; text = "0.00"; ObjectID = "rFu-sW-Y0s"; */
+"rFu-sW-Y0s.text" = "0.00";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "xRe-Bh-AJ1"; */
+"xRe-Bh-AJ1.text" = "0.00";
